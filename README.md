@@ -1,4 +1,4 @@
-# geogdb_final_project
+# Geog DB Final Project
 
 ## The below might not be necessary
 
@@ -19,5 +19,17 @@ Make sure you save the CSVs from Kaggle in the geogdb_final_project directory. T
       e.g `python shrink.py Chicago_Crime_2012_2017.csv 1000000`
 This will create a csv_files directory and place your new CSV within it.
 
+### Creating the Database
+
+## Create the Schema
+Create a schema and call it chicago_crime.
+
+## Create the staging table 
+Open a SQL Query window and run the SQL in create_staging.sql
+
+# Create tables and populate
+The tables will be populated by the staging table. There are also a few hardcoded entries that will be added to the
+Attraction table. Ward geometries will come from the Chicago Wards shape file, which there instructions on how to
+import to your database on ICON.
 
   
